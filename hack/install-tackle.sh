@@ -117,6 +117,8 @@ metadata:
   name: tackle
   namespace: ${NAMESPACE}
 spec:
+  hub_bucket_volume_size: 80Gi
+  cache_data_volume_size: 80Gi
   feature_auth_required: ${FEATURE_AUTH_REQUIRED}
   hub_image_fqin: ${HUB_IMAGE}
   ui_image_fqin: ${UI_IMAGE}

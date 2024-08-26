@@ -90,6 +90,8 @@ apiVersion: tackle.konveyor.io/v1alpha1
 metadata:
   name: tackle
 spec:
+  hub_bucket_volume_size: 80Gi
+  cache_data_volume_size: 80Gi
   feature_auth_required: false
 EOF
   fi
