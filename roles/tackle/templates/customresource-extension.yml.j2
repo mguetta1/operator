@@ -169,6 +169,8 @@ spec:
     env:
     - name: PORT
       value: ${seq:8000}
+    - name: HOME
+      value: {{ cache_mount_path }}
     resources:
       limits:
         cpu: {{ provider_c_sharp_container_limits_cpu }}
